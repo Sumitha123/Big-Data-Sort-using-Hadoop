@@ -16,7 +16,7 @@ $ jps<br />
 73647 ResourceManager
 ### Create jar file from the project directory.
 Jar file can also be created from terminal by using the command:<br />
-jar -cvf wordcount.jar *.*
+$ jar -cvf hadoop-mapreduce-graysort.jar *.*
 ### Browse HDFS directory
 http://localhost:50070/explorer.html#/<br />
 ### Generate 10 GB data using TeraGen
