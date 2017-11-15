@@ -7,7 +7,7 @@ This project implements Hadoop MapReduce to sort 10 GB of data in HDFS using Gra
 $ /usr/local/Cellar/hadoop/2.8.1/start-dfs.sh;
 /usr/local/Cellar/hadoop/2.8.1/start-yarn.sh
 ### Using jps command check if all hadoop daemons are running or not.
-$ jps
+$ jps<br />
 16499 Jps
 73829 NodeManager
 24344 SecondaryNameNode
