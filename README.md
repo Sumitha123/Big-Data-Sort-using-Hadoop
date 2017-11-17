@@ -4,8 +4,8 @@
 This project implements Hadoop MapReduce to sort 10 GB of data in HDFS using GraySort. The output of MapReduce is a sequence of files comprising the final sorted dataset. GraySort consists of three parts: teragen, terasort and teravalidate. Teragen is used to generate the data. Terasort is used to submit a MapReduce job that sorts the data. Teravalidate is used to validate if the data has been sorted.
 
 ### Install Hadoop and start Hadoop using the command:
-$ /usr/local/Cellar/hadoop/2.8.1/start-dfs.sh;<br />
-/usr/local/Cellar/hadoop/2.8.1/start-yarn.sh<br />
+$ /usr/local/Cellar/hadoop/2.8.1/sbin/start-dfs.sh;<br />
+/usr/local/Cellar/hadoop/2.8.1/sbin/start-yarn.sh<br />
 ### Using jps command check if all hadoop daemons are running or not.
 $ jps<br />
 16499 Jps<br />
